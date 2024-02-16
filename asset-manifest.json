@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IDScraper/static/css/main.2a3d5592.css",
-    "main.js": "/IDScraper/static/js/main.30790261.js",
+    "main.js": "/IDScraper/static/js/main.98ec77a9.js",
     "static/js/592.7f72a991.chunk.js": "/IDScraper/static/js/592.7f72a991.chunk.js",
     "static/media/test2.jpg": "/IDScraper/static/media/test2.d818a93e1da38b2bdb43.jpg",
     "static/media/test1.jpg": "/IDScraper/static/media/test1.242f924ed4425850fdb8.jpg",
@@ -11,11 +11,11 @@
     "static/media/gear-512.png": "/IDScraper/static/media/gear-512.1f4b984581bfa6fb948f.png",
     "index.html": "/IDScraper/index.html",
     "main.2a3d5592.css.map": "/IDScraper/static/css/main.2a3d5592.css.map",
-    "main.30790261.js.map": "/IDScraper/static/js/main.30790261.js.map",
+    "main.98ec77a9.js.map": "/IDScraper/static/js/main.98ec77a9.js.map",
     "592.7f72a991.chunk.js.map": "/IDScraper/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a3d5592.css",
-    "static/js/main.30790261.js"
+    "static/js/main.98ec77a9.js"
   ]
 }
