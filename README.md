@@ -17,11 +17,11 @@ The project follows a typical client-server architecture, where the client-side 
 
 **Obstacles Encountered and Assumptions Made:**
 
-1. **Limitations of OCR:** OCR can sometimes struggle with low-quality images, distorted text, or unusual fonts. Handling these edge cases effectively can be challenging and may require additional preprocessing steps or using more advanced OCR techniques.
+1. **Limitations of OCR:** OCR can sometimes struggle with low-quality images, distorted text, or unusual fonts. Handling these edge cases effectively can be challenging and may require additional preprocessing steps or using more advanced OCR techniques. As a result, errors may appear due to OCR imperfections.
 
 2. **Parsing Different State Licenses:** Each state may have different formats and layouts for driver's licenses, making it necessary to have specific parsing rules for each state. Currently, the functionality is only completed for the state of Virginia (assumption based on the provided code). Extending this functionality to cover licenses from other states would require additional parsing rules and possibly more advanced text recognition techniques.
 
-3. **Assumption about the Camera or License:** The application assumes that users have access to a device with a webcam for capturing images of driver's licenses. Additionally, it assumes that the driver's licenses being processed follow a standard format, with consistent placement of relevant information such as name, address, and DL issuance & expiration date.
+3. **Processing Delay Due to Lack of Server:** In the absence of a server, tasks such as image processing and OCR are performed locally on the client-side. This may result in longer processing times, especially for computationally intensive tasks like OCR, due to the limited processing power of client devices.
 
 **Potential Improvements:**
 
